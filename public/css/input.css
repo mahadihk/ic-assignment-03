@@ -1,1 +1,10 @@
 @import "tailwindcss";
+@theme {
+  --color-primary: #0b5d1e;
+  --color-lightgray: #d9d9d9;
+  --color-limegreen: #EBFFF1;
+}
+
+.hero-bg-pattern{
+    background-image: url('../images/pattern.png');
+}
