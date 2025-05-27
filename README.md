@@ -37,7 +37,7 @@ Through this assignment, I learned how to Tailwind CSS and create website UI.
 
 ## 🌐 Live Preview
 
-👉 [coolquest](https:// /)
+👉 [coolquest](https://coolquest-ic.netlify.app/)
 
 ## 📸 Screenshot
 
