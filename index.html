@@ -6,8 +6,19 @@
     <meta name="description" content="Interactive Cares Assignment 3" />
     <meta name="keywords" content="HTML, CSS, Tailwind CSS" />
     <meta name="author" content="Mahadi Hasan" />
+
+    <title>CoolQuest | HVAC Solutions</title>
+    <!-- Stylesheet -->
     <link href="./public/css/output.css" rel="stylesheet" />
+    <!-- Fontawesome -->
     <link href="./public/fontawesome/css/all.min.css" rel="stylesheet" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./public/images/favicon.ico"
+    />
   </head>
   <body>
     <nav
@@ -24,7 +35,7 @@
           >About Us</a
         >
         <a
-          href="#"
+          href="#services"
           class="text-gray-700 hover:text-green-700 transition-colors duration-200 text-lg"
           >Services</a
         >
@@ -45,30 +56,17 @@
           id="mobile-menu-button"
           class="text-gray-700 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-green-700"
         >
-          <svg
-            class="w-8 h-8"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16m-7 6h7"
-            ></path>
-          </svg>
+          <i class="fa-solid fa-bars text-3xl"></i>
         </button>
       </div>
 
       <a
-        href="#"
+        href="#footer"
         class="hidden lg:inline-block bg-green-700 hover:bg-green-800 text-white font-semibold py-3 px-6 rounded-full transition duration-300 shadow-md text-lg"
         >Get Free Quote</a
       >
       <a
-        href="#"
+        href="#footer"
         class="lg:hidden bg-green-700 hover:bg-green-800 text-white font-semibold py-2 px-4 rounded-full transition duration-300 shadow-md text-base ml-4"
         >Quote</a
       >
@@ -76,28 +74,28 @@
 
     <div
       id="mobile-menu"
-      class="hidden lg:hidden bg-white shadow-lg rounded-lg mx-auto max-w-6xl mt-1 py-4 px-4 z-10 absolute w-full"
+      class="hidden lg:hidden bg-white shadow-lg rounded-lg mx-auto max-w-6xl mt-1 py-4 px-4 z-10 absolute h-screen w-full"
     >
       <a
-        href="#"
+        href="#hero"
         class="block text-gray-700 hover:text-green-700 transition-colors duration-200 py-2 text-lg"
       >
         About Us
       </a>
       <a
-        href="#"
+        href="#services"
         class="block text-gray-700 hover:text-green-700 transition-colors duration-200 py-2 text-lg"
       >
         Services
       </a>
       <a
-        href="#"
+        href="#pastWorks"
         class="block text-gray-700 hover:text-green-700 transition-colors duration-200 py-2 text-lg"
       >
         Past Work
       </a>
       <a
-        href="#"
+        href="#reviews"
         class="block text-gray-700 hover:text-green-700 transition-colors duration-200 py-2 text-lg"
       >
         Reviews
@@ -696,7 +694,7 @@
     <!-- ---------------------------
       Section: HVAC Services - Start
     ---------------------------- -->
-    <section class="bg-gray-50 py-16">
+    <section id="services" class="bg-gray-50 py-16">
       <div class="container mx-auto px-4">
         <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">
           Our HVAC Services
@@ -1090,7 +1088,7 @@
       Section: Footer - Start 
     ------------------------ -->
 
-    <section class="footer">
+    <section id="footer" class="footer">
       <footer class="bg-primary text-white py-12">
         <div class="container mx-auto px-4">
           <div
@@ -1187,6 +1185,7 @@
       Section: Footer - End 
     ----------------------- -->
 
+    <!-- Javascript -->
     <script>
       document
         .getElementById("mobile-menu-button")
